@@ -27,6 +27,12 @@ websites:
       software: Yes
       doc: http://support.maxcdn.com/tutorials/enabling-2-step-verification/
 
+    - name: Media Temple
+      url: http://mediatemple.net/
+      twitter: mediatemple
+      img: mediatemple.png
+      tfa: No
+
     - name: NearlyFreeSpeech.NET
       url: https://www.nearlyfreespeech.net/
       img: nfsn.png
@@ -48,3 +54,9 @@ websites:
       tfa: Yes
       software: Yes
       doc: https://clientarea.ramnode.com/knowledgebase.php?action=displayarticle&id=70
+
+    - name: Squarespace
+      url: https://squarespace.com/
+      twitter: squarespace
+      img: squarespace.png
+      tfa: No

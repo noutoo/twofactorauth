@@ -34,6 +34,8 @@ websites:
       sms: Yes
       software: Yes
       hardware: Yes
+      international:
+          "SMS: US only."
       doc: https://www.paypal.com/us/cgi-bin?cmd=xpt/Marketing_CommandDriven/securitycenter/PayPalSecurityKey-outside&bn_r=o
 
     - name: Skrill
@@ -61,3 +63,9 @@ websites:
       twitter: venmo
       tfa: No
       url: https://venmo.com
+
+    - name: Litle & Co
+      img: litleco.png
+      twitter: litleco
+      tfa: No
+      url: https://www.litle.com

@@ -57,7 +57,8 @@ td i.icon{
   margin: 0em 0em 0em 0em;
 }
 
-td span.progress {
+td span.progress,
+td span.international {
     float: right;
 }
 

@@ -12,6 +12,11 @@ providers:
     software: Yes
     hardware: Yes
 
+  - name: Authenticator Plus
+    url: http://authenticatorplus.com
+    img: authenticatorplus.png
+    software: Yes
+
   - name: Duo Security
     url: https://www.duosecurity.com
     img: duo.png
@@ -35,6 +40,13 @@ providers:
     img: rublon.png
     software: Yes
 
+  - name: SAASPASS
+    url: https://www.saaspass.com/
+    img: saaspass.png
+    tfa: Yes
+    software: Yes
+    doc: https://www.saaspass/about.html
+
   - name: SecureAuth
     email: Yes
     hardware: Yes
@@ -43,6 +55,19 @@ providers:
     sms: Yes
     software: Yes
     url: http://www.secureauth.com/
+
+  - name: Solidpass
+    url: http://www.solidpass.com
+    img: solidpass.png
+    hardware: Yes
+    sms: Yes
+    software: Yes
+
+  - name: Symantec/Verisign Validation & ID Protection (VIP)
+    url: https://idprotect.verisign.com/
+    img: symantec.png
+    hardware: yes
+    software: yes
 
   - name: Toopher
     url: https://toopher.com
@@ -55,10 +80,9 @@ providers:
     img: yubico.png
     hardware: Yes
     software: Yes
-    
+
   - name: WiKID Systems
     url:  https://www.wikidsystems.com
     img:  wikid.png
     hardware: No
     software: Yes
-
