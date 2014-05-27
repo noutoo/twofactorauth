@@ -108,6 +108,7 @@ hash: SupportTwoFactorAuth
                                                 <img src="/img/{{ section.id }}/{{ website.img }}" class="icon" alt="{{ website.name }}">
                                             {% endif %}
                                                 <a href="{{ website.url }}">{{ website.name }}</a>
+                                                {% include exception.html website=website %}
                                             </td>
 
                                             <td class="positive icon">
@@ -119,35 +120,30 @@ hash: SupportTwoFactorAuth
                                             <td class="positive icon">
                                             {% if website.sms %}
                                                 <i class="checkmark large icon"></i>
-                                            {% else %}
                                             {% endif %}
                                             </td>
 
                                             <td class="positive icon">
                                             {% if website.phone %}
                                                 <i class="checkmark large icon"></i>
-                                            {% else %}
                                             {% endif %}
                                             </td>
 
                                             <td class="positive icon">
                                             {% if website.email %}
                                                 <i class="checkmark large icon"></i>
-                                            {% else %}
                                             {% endif %}
                                             </td>
 
                                             <td class="positive icon">
                                             {% if website.hardware %}
                                                 <i class="checkmark large icon"></i>
-                                            {% else %}
                                             {% endif %}
                                             </td>
 
                                             <td class="positive icon">
                                             {% if website.software %}
                                                 <i class="checkmark large icon"></i>
-                                            {% else %}
                                             {% endif %}
                                             </td>
                                         </tr>

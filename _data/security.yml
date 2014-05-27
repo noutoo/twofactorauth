@@ -37,3 +37,25 @@ websites:
       tfa: Yes
       sms: Yes
       doc: http://threatsim.com/features/
+
+    - name: Tinfoil Security
+      url: https://www.tinfoilsecurity.com
+      img: tinfoil.png
+      tfa: Yes
+      software: Yes
+      doc: http://support.tinfoilsecurity.com/customer/portal/articles/1559364-do-you-support-two-factor-authentication-how-do-i-set-it-up-
+
+    - name: ThreatMetrix
+      url: https://www.threatmetrix.com/
+      img: threatmetrix.png
+      tfa: No
+      twitter: ThreatMetrix
+
+    - name: OpenDNS
+      url: http://www.opendns.com/
+      img: opendns.png
+      tfa: Yes
+      sms: Yes
+      twitter: OpenDNS
+      software: Yes
+      doc: http://engineering.opendns.com/2014/05/22/launching-two-step-verification/
