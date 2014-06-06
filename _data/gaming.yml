@@ -14,6 +14,14 @@ websites:
       tfa: No
       twitter: desura
 
+    - name: Elder Scrolls Online
+      url: http://www.elderscrollsonline.com/
+      twitter: TESOnline
+      img: eso.png
+      tfa: yes
+      email: yes
+      doc: http://twofactorauth.org/notes/eso/
+
     - name: EVE Online
       url: http://www.eveonline.com/
       twitter: EveOnline
@@ -48,6 +56,12 @@ websites:
       img: leagueoflegends.png
       tfa: No
       status: http://forums.na.leagueoflegends.com/board/showthread.php?p=45603580#45603580
+      
+    - name: Mojang
+      url: http://mojang.com
+      twitter: MojangTeam
+      img: mojang.png
+      tfa: No
 
     - name: Origin
       url: https://www.origin.com/
